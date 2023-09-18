@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-ex
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/hacdev/user1-tenant/test-node/nodejs-ex@sha256:6acd83cbb2d36becd57c0224454c53a35d6bfa95a2d077904e90d3021d75bda6
         name: my-nodejs
         ports:
         - containerPort: 3001
